@@ -29,7 +29,7 @@
 #     src: roboshop.conf
 #     dest: /etc/nginx/default.d/roboshop.conf
 
-- name: copying rboshop config
+- name: copying roboshop config
   ansible.builtin.template:
     src: roboshop.conf.j2
     dest: /etc/nginx/default.d/roboshop.conf
